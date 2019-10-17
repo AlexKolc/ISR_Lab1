@@ -8,5 +8,7 @@ public class University {
         timetables = new ArrayList<Timetable>();
     }
 
-
+    void addTimetable(Timetable timetable) {
+        timetables.add(timetable);
+    }
 }
