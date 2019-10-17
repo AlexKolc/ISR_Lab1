@@ -38,4 +38,9 @@ public class Group {
     void removeStudent(String student) {
         students.remove(student);
     }
+
+    int countOfStudents() {
+        return students.size();
+    }
+
 }
