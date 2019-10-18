@@ -10,6 +10,16 @@ public class Subject {
             "saturday", "sunday"
     };
 
+    public enum Day{
+        MONDAY,
+        TUESDAY,
+        WEDNESDAY,
+        THURSDAY,
+        FRIDAY,
+        SATURDAY,
+        SUNDAY
+    }
+
     private String name;
     private String time;
     private String dayOfWeek;

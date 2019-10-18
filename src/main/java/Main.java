@@ -3,7 +3,7 @@ public class Main {
         Group group = new Group("M3304");
         Timetable timetable = new Timetable(group);
 
-        timetable.addSubject(new Subject("monday", "13.30", "Economics", "Lection", "Ivan"));
+        timetable.addSubject(new Subject(Subject.Day.MONDAY.name(), "13.30", "Economics", "Lection", "Ivan"));
         timetable.addSubject(new Subject("tuEsday", "15.00", "Math", "practice", "Sveta"));
         timetable.addSubject(new Subject("sunday", "13.30", "Economics", "practice", "Ruslan"));
         timetable.addSubject(new Subject("monday", "10.00", "SAKF", "Lection", "Ivan"));
