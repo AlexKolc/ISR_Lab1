@@ -11,4 +11,12 @@ public class University {
     void addTimetable(Timetable timetable) {
         timetables.add(timetable);
     }
+
+    Timetable getTimetableByGroup(Group group) {
+        for (Timetable tle: timetables) {
+            if (tle.getGroup().getName().equals(group.getName()))
+                return tle;
+        }
+        return null;
+    }
 }

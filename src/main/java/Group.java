@@ -43,4 +43,8 @@ public class Group {
         return students.size();
     }
 
+    String getName() {
+        return name;
+    }
+
 }

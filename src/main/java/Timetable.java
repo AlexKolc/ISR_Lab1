@@ -119,5 +119,9 @@ public class Timetable {
         }
         setSubjects(newSubjects);
     }
+
+    Group getGroup() {
+        return group;
+    }
     
 }
