@@ -119,5 +119,12 @@ public class Timetable {
         }
         setSubjects(newSubjects);
     }
-    
+
+    Group getGroup() {
+        return group;
+    }
+
+    double getTimePerWeek() {
+        return 1.5 * subjects.size();
+    }
 }
