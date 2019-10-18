@@ -12,7 +12,10 @@ public class Main {
         //System.out.println(timetable.getAllTimetable());
         System.out.println(timetable.getTimetableByName("Economics"));
 
-        System.out.println("Hello World!!!AAA!?!&&?!?!?");
+        System.out.println("Hello World!!!AAA!?!&&?!111?!?");
+
+
+
 
 
     }
