@@ -16,5 +16,7 @@ public class Main {
 
         System.out.println("we need help");
 
+        System.out.println("I want leave this class, please");
+
     }
 }
